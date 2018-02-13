@@ -8,7 +8,7 @@ library(lime)
 model = application_vgg19()
 
 # define image path to classify
-image_path = 'images/tonks_proposal_sign.jpg'
+image_path = 'images/dogs/tonks_proposal_sign.jpg'
 
 # define image preprocessor for use with keras vgg19
 image_preprocessor = function(image_path) {
